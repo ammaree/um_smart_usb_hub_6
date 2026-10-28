@@ -1554,7 +1554,6 @@ void processSerial()
             line += c;
             Serial.write(c);
         }
-        Serial.flush(); // send the echo now rather than when the buffer fills
     }
 }
 
